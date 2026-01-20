@@ -1,20 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
-    <style>
-        body {
-            background: #0f172a;
-            color: white;
-            font-family: Arial;
-            text-align: center;
-            padding-top: 100px;
-        }
-        h1 { color: #38bdf8; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+/* NAVBAR */
+nav {
+    background: #020617;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: #38bdf8;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #38bdf8;
+}
+
+.card {
+    background: #020617;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+}
+</style>
 </head>
+
 <body>
-    <h1>🚀 My Website is Live</h1>
-    <p>Hosted on GitHub Pages</p>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <h1>🚀 Welcome to My Website</h1>
+    <p>Cybersecurity | Linux | Networking</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a technology enthusiast learning cybersecurity, Linux,
+            networking, and ethical hacking. This website is hosted using
+            GitHub Pages.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Linux (Kali, Parrot)</li>
+            <li>Networking & TCP/IP</li>
+            <li>Nmap, Wireshark</li>
+            <li>HTML & GitHub Pages</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>🔐 Network Scanning</h3>
+        <p>Used Nmap for port scanning and service detection.</p>
+    </div>
+    <div class="card">
+        <h3>🌐 GitHub Website</h3>
+        <p>Built and hosted a website using GitHub Pages.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: yourname@email.com</p>
+        <p>GitHub: https://github.com/last65209-ops</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 My Website | Powered by GitHub Pages
+</footer>
+
 </body>
 </html>
